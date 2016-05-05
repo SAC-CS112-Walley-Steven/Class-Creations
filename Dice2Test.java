@@ -16,6 +16,9 @@ public class Dice2Test {
 		
 		System.out.println(Dice2.Throw(diceNum, bounces));
 		
+		ThreeDice threeDice = new ThreeDice();
+		
+		System.out.println(threeDice.Throw());
 	}
 
 }
